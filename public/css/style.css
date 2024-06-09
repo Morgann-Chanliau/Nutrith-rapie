@@ -1,0 +1,218 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  color: #111111;
+  background-color: #F4F4F4;
+  margin: 0;
+}
+
+p {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #111111;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: 450;
+  text-align: center;
+  margin-bottom: 13px;
+  text-decoration: underline;
+  line-height: 20px;
+  width: 90%;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-image: url("../assets/Header NT.jpg");
+  background-size: cover;
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.header .logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 7px;
+}
+.header .btntel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  position: absolute;
+  right: 15px;
+}
+.header .btntel .BTNres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f300f3;
+  width: 120px;
+  height: 20px;
+  border: 1px solid #111111;
+}
+.header .btntel .tel {
+  margin-top: 7px;
+  width: 80%;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4F4F4;
+  border-radius: 30%;
+  box-shadow: 0px 0px 2px 3px #F4F4F4;
+}
+
+.navbar {
+  width: 100%;
+  height: 25px;
+  background-color: #f300f3;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #a004a0;
+  border-bottom: 1px solid #a004a0;
+}
+.navbar .navbutton {
+  width: 25%;
+  text-decoration: none;
+  color: #111111;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .navbutton:hover {
+  transition: 0.3s;
+  background-color: #a004a0;
+  color: #F4F4F4;
+}
+.navbar .navbutton:active {
+  background-color: #a004a0;
+  color: #F4F4F4;
+}
+.navbar #doubleborderbutton {
+  border-left: 1px solid #a004a0;
+  border-right: 1px solid #a004a0;
+}
+.navbar #leftborderbutton {
+  border-left: 1px solid #a004a0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  line-height: 15px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.main .container .text {
+  margin-bottom: 30px;
+  width: 90%;
+}
+.main .container .BTNresmtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f300f3;
+  width: 200px;
+  height: 25px;
+  border: 1px solid black;
+}
+.main #benefits {
+  background-color: #e9e9e9;
+  border-top: 10px solid #e9e9e9;
+  border-bottom: 10px solid #e9e9e9;
+  padding-bottom: 15px;
+}
+.main .container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.main .container2 .text {
+  margin-bottom: 15px;
+}
+.main .container2 .contentimg {
+  width: 90%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.main .container2 #contentimg3 {
+  height: 150px;
+}
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+.main #slider {
+  overflow: hidden;
+  width: 90%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.main #slider figure img {
+  width: 20%;
+  float: left;
+}
+.main #slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
