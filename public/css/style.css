@@ -25,6 +25,7 @@ h1 {
   text-align: center;
   margin-bottom: 20px;
   width: 90%;
+  line-height: 30px;
 }
 
 h2 {
@@ -33,7 +34,7 @@ h2 {
   text-align: center;
   margin-bottom: 13px;
   text-decoration: underline;
-  line-height: 40px;
+  line-height: 30px;
   width: 90%;
 }
 
@@ -72,7 +73,7 @@ h2 {
 }
 .header .btntel .tel {
   margin-top: 7px;
-  width: 100%;
+  width: 170px;
   height: 25px;
   display: flex;
   justify-content: center;
@@ -94,6 +95,7 @@ h2 {
 
 .navbar p {
   font-size:12px;
+  margin:0;
 }
 
 .navbar .navbutton {
