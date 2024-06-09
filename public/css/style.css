@@ -84,13 +84,18 @@ h2 {
 
 .navbar {
   width: 100%;
-  height: 25px;
+  height: 35px;
   background-color: #f300f3;
   display: flex;
   flex-direction: row;
   border-top: 1px solid #a004a0;
   border-bottom: 1px solid #a004a0;
 }
+
+.navbar p {
+  font-size:12px;
+}
+
 .navbar .navbutton {
   width: 25%;
   text-decoration: none;
